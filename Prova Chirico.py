@@ -1,3 +1,12 @@
+#Construa um software em Python que implemente uma Pilha de carros e uma Pilha de drones.
+#As classes carro e drone herdam da classe veículo os atributos e comuns às duas classes.
+#A classe carro é composta dos atributos marca, modelo e portas. O atributo portas é fortemente privado.
+#A classe drone é composta dos atributos marca, modelo e quantidade de hélices. O atributo quantidade de hélices é fracamente privado.
+#Todas classes devem ter um método para imprimir as informações dos seus respectivos atributos.
+#Implemente uma tela com um menu (funcionando) que permita ao usuário:
+#-> Adicionar e remover carros da Pilha.
+#-> Adicionar e remover drones da Pilha.
+#-> Imprimir a Pilha de carros e a Pilha de drones.
 class Veiculo:
     def __init__(self, marca, modelo):
         self.marca = marca
